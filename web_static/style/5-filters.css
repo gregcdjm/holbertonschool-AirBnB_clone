@@ -1,0 +1,29 @@
+.container {
+    max-width: 1000px;
+    margin: 30px auto 30px auto;
+}
+.filters {
+    background-color: white;
+    display: flex;
+    width: 100%; height: 70px;
+    border: 1px solid #ddd; border-radius: 4px; /* Add a grey border */
+}
+button {
+    border: none;  border-radius: 4px; /* Remove borders */
+    font-size: 18px;
+    background-color: #FF5A5F; color: #FFF; /* Add a text color */
+    height: 48px; width: 20%; margin: auto 30px auto auto;
+    cursor: pointer; /* Add a pointer cursor on mouse-over */  
+    vertical-align: middle; text-align: right 30px;
+}
+.locations {
+    height: 100%; width: 25%;
+    border-right:1px solid#ddd;
+    margin-left: 0%;
+}
+h3 {
+    font-weight: 600;
+}
+h4 {
+    font-weight: 400; font-size: 14px;
+}
